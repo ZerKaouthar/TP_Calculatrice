@@ -1,4 +1,4 @@
-#Somme de deux nombre 
+#Somme de deuux nombre 
 def DeuxNombre(a,b):
     return a+b
 
