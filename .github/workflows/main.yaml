@@ -28,7 +28,7 @@ jobs:
     - name: Lint with pylint
       run: |
         pip install pylint
-        pylint devopstp.py
+        pylint TP_Calculatrice.py
 
     # Exécution des tests
     - name: Test with pytest
