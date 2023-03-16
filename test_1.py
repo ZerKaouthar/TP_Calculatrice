@@ -1,5 +1,5 @@
 """importer tp"""
-from TP_Calculatrice import Tp
+from tpcalculatrice import Tp
 
 def test_func1():
     """test func 1"""

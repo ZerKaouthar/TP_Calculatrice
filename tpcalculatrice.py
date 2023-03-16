@@ -5,7 +5,7 @@ class Tp :
         pass
 
     @classmethod
-    def func1(cls,num1_,num2_): 
+    def func1(cls,num1_,num2_):
         """La fonction suivante calcule la somme de deux nombre""" 
         return num1_ + num2_
     @classmethod
