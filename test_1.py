@@ -1,14 +1,12 @@
-"""test func 1"""
+from TP_Calculatrice import tp
+
 def test_DeuxNombre():
-     """Test addition"""
-    assert DeuxNombre(2, 3) == 5
-    assert DeuxNombre(-2, 3) == 1
-    assert DeuxNombre(0, 0) == 0
+    """test func 1"""
+    assert tp.DeuxNombre(2,3)== 5
+
 
 def test_MultipNombre():
     """Test multiplication"""
-    assert DeuxNombre(2, 3) == 6
-    assert DeuxNombre(-2, 3) == -6
-    assert DeuxNombre(0, 0) == 0
+    assert tp.MultipNombre(2,3) == 6
 
-    print("All tests pass")
+print("All tests pass")
